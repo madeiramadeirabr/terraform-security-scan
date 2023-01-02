@@ -9,7 +9,11 @@ metadata:
     - cloud
     - devops
     - terraform
+    - shell
+    - hcl
+    - dockerfile
+    - readme-incomplete
 spec:
   type: iac
-  lifecycle: production
+  lifecycle: deprecated
   owner: squad-dev-ops-admin
