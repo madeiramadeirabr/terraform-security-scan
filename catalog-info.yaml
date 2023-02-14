@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: terraform-security-scan
+  annotations:
+    github.com/project-slug: madeiramadeirabr/terraform-security-scan
+  tags:
+    - aws
+    - cloud
+    - devops
+    - terraform
+    - shell
+    - hcl
+    - dockerfile
+    - readme-incomplete
+spec:
+  type: iac
+  lifecycle: deprecated
+  owner: squad-dev-ops-admin
